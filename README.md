@@ -1,1 +1,2 @@
-# IOT-base-Air-Quality-Monitoring-System
+# IOT-based-Air-Quality-Monitoring-System
+This project monitors real-time temperature, humidity, and air quality using sensors like MQ135 (air quality) and DHT11 (temperature & humidity). Data is displayed on an LCD screen and a web dashboard, which updates in real-time. LEDs (Green, Yellow, Red) and a buzzer indicate air quality levels: Fresh, Moderate, or Poor. The system also sends alert emails via PHPMailer when air quality crosses a defined threshold. Communication is handled through ESP8266, and data is logged/displayed using a custom HTML + PHP dashboard.
